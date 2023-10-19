@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menufname"
+            android:icon="@drawable/ic_person"
+            android:title="First Name"
+            android:visible="true" />
+        <item
+            android:id="@+id/menulastname"
+            android:icon="@drawable/ic_lastnm"
+            android:title="Last Name"
+            android:visible="true" />
+        <item
+            android:id="@+id/menuemail"
+            android:icon="@drawable/ic_email"
+            android:title="My Email"
+            android:visible="true" />
+        <item
+            android:id="@+id/menulogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log out"
+            android:visible="true" />
+    </group>
+
+</menu>
